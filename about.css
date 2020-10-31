@@ -1,0 +1,51 @@
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+ 
+@media screen and (max-width: 1024px) {
+    img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+    }
+}
+.bg2{
+    position: fixed;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    background: rgba(42, 38, 71, 0.82);
+}
+
+.isi{
+  left: 256px;
+top: 301px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+color:white;
+}
+.judul{
+padding:60px;
+font-family:Pacifico;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 84px;
+text-align: center;
+color: #FCB371;
+}
+a > img{
+  padding-top:80px;
+}
